@@ -1,0 +1,229 @@
+/*--Variables--*/
+
+$rojo: #BD0A11; $blanco: #FFFFFF; 
+$negro: #000000; $gris: #D6D6D6;
+
+body {
+	width: 800px; 
+	margin: auto;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*--herencias, despues en cada clase colocamos @extend .ubicacion para surtir efecto--*/
+.ubicacion {
+	float: left;
+	position: relative;
+}
+/*--aca comienza el HEADER--*/
+.header {
+	@extend .ubicacion;
+	height: 150px;
+	width: 800px;
+	background-color: $negro;
+}
+.header--menu {
+	@extend .ubicacion;
+	width: 609px;
+	margin-top: 125px;
+	background-image: url(BARRA.png);
+	font-weight: bold;
+    font-size: 14px;
+}
+.header--LOGO {
+	@extend .ubicacion;
+	height: 150px;
+	width: 191px;
+
+}
+.header--menu__inicio {
+	@extend .ubicacion;
+	height: 25px;
+	width: 40px;
+	margin-left: 5px;
+	text-align: center;
+}
+.header--menu__empresa {
+	@extend .ubicacion;
+	height: 25px;
+	width: 60px;
+	margin-left: 30px;
+	text-align: center;
+}
+.header--menu__servicios {
+	@extend .ubicacion;
+	height: 25px;
+	width: 65px;
+	margin-left: 30px;
+	text-align: center;
+}
+.header--menu__proyectos {
+	@extend .ubicacion;
+	height: 25px;
+	width: 70px;
+	margin-left: 30px;
+	text-align: center;
+}
+.header--menu__trab-con-nos {
+	@extend .ubicacion;
+	height: 25px;
+	width: 140px;
+	color: $negro;
+	margin-left: 30px;
+	text-align: center;
+}
+.header--menu__contactos {
+	@extend .ubicacion;
+	height: 25px;
+	width: 70px;
+	margin-left: 30px;
+	text-align: center;
+}
+/*--aca comienza el banner--*/
+.banner1 {
+	@extend .ubicacion;
+	height: 200px;
+	width: 800px;
+}
+/*--aca comienza la section principal (article)--*/
+.section {
+	@extend .ubicacion;
+	height: 450px;
+	width: 600px;
+	background-color: $gris;
+}
+.section--img {
+	@extend .ubicacion;
+	height: 150px;
+	width: 585px;
+	margin: 15px 0 0 15px;
+	background-color: $blanco;
+}
+.section--article{
+	@extend .ubicacion;
+	height: 250px;
+	width: 175px;
+	background-color: $blanco;
+	margin: 15px 0px 0px 15px;
+	font-size: 12px;
+	font-weight: normal;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.section--article__texto {
+	@extend .ubicacion;
+	height: 85px;
+	width: 175px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: $negro;
+}
+/*--aca comienza la section secundaria (aside)--*/
+.aside {
+	@extend .ubicacion;
+	height: 450px;
+	width: 200px;
+	background-color: $gris;
+}
+.aside--mapa {
+	@extend .ubicacion;
+	height: 200px;
+	width: 170px;
+	margin: 15px 0px 0px 15px;
+	background-color: $rojo;
+	text-align: center;
+	font-weight: bold;
+}
+.aside--banner {
+	@extend .ubicacion;
+	height: 200px;
+	width: 170px;
+	margin: 15px 0px 0px 15px;
+	background-color: $blanco;
+}
+/*Footer*/
+.footer {
+	@extend .ubicacion;
+	height: 200px;
+	width: 800px;
+}
+.footer--menu {	
+	@extend .ubicacion;
+	height: 180px;
+	width: 800px;
+	font-size: 14px;
+	font-weight: bold;
+	background: linear-gradient($rojo, $negro);
+}
+.footer--menu__nav1 {
+	@extend .ubicacion;
+	height: 155px;
+	width: 180px;
+	margin: 25px 0px 0px 50px;
+}
+.footer--menu__nav2 {
+	@extend .ubicacion;
+	height: 155px;
+	width: 180px;
+	margin-top: 25px;
+}
+.footer--menu__nav3 {
+	@extend .ubicacion;
+	height: 155px;
+	width: 180px;
+	margin-top: 25px;
+}
+.footer--menu__social {
+	@extend .ubicacion;
+	height: 155px;
+	width: 210px;
+	margin-top: 25px;
+}
+.redes-sociales {
+	@extend .ubicacion;
+	height: 50px;
+	width: 50px;
+	top: 20px;
+	left: 40px;
+}
+.seguinos {
+	@extend .ubicacion;
+	height: 25px;
+	width: 210px;
+}
+.twiter {
+	@extend .ubicacion;
+	height: 50px;
+	width: 50px;
+	left: 60px;
+	top: 20px;
+}
+
+.footer--derechosReservados {
+	@extend .ubicacion;
+	height: 20px;
+	width: 800px;
+	color: $blanco;
+	font-size: 12px;
+    text-align: center;
+    background-color: $negro;
+}
+/*esto para evitar el color azul en el enlace despues de dar click */
+a:link {
+	text-decoration: none;
+	color: $blanco;
+}
+a:visited {
+	text-decoration: none;
+	color: $blanco;
+}
+a:hover {
+	text-decoration: none;
+	color: $rojo
+}
+/*aca al estar haciendo click en el enlace (sin soltar click)*/
+a:active {
+	text-decoration: none;
+	color: $negro;
+}

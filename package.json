@@ -1,0 +1,11 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "arreglar el sitio web para facil lectura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Gonzalez <carlosngonzalez0@gmail.com>",
+  "license": "MIT"
+}

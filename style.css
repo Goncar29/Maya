@@ -1,0 +1,230 @@
+/*--Variables--*/
+body {
+  width: 800px;
+  margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*--herencias, despues en cada clase colocamos @extend .ubicacion para surtir efecto--*/
+.ubicacion, .header, .header--menu, .header--LOGO, .header--menu__inicio, .header--menu__empresa, .header--menu__servicios, .header--menu__proyectos, .header--menu__trab-con-nos, .header--menu__contactos, .banner1, .section, .section--img, .section--article, .section--article__texto, .aside, .aside--mapa, .aside--banner, .footer, .footer--menu, .footer--menu__nav1, .footer--menu__nav2, .footer--menu__nav3, .footer--menu__social, .redes-sociales, .seguinos, .twiter, .footer--derechosReservados {
+  float: left;
+  position: relative;
+}
+
+/*--aca comienza el HEADER--*/
+.header {
+  height: 150px;
+  width: 800px;
+  background-color: #000000;
+}
+
+.header--menu {
+  width: 609px;
+  margin-top: 125px;
+  background-image: url(BARRA.png);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header--LOGO {
+  height: 150px;
+  width: 191px;
+}
+
+.header--menu__inicio {
+  height: 25px;
+  width: 40px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.header--menu__empresa {
+  height: 25px;
+  width: 60px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.header--menu__servicios {
+  height: 25px;
+  width: 65px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.header--menu__proyectos {
+  height: 25px;
+  width: 70px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.header--menu__trab-con-nos {
+  height: 25px;
+  width: 140px;
+  color: #000000;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.header--menu__contactos {
+  height: 25px;
+  width: 70px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+/*--aca comienza el banner--*/
+.banner1 {
+  height: 200px;
+  width: 800px;
+}
+
+/*--aca comienza la section principal (article)--*/
+.section {
+  height: 450px;
+  width: 600px;
+  background-color: #D6D6D6;
+}
+
+.section--img {
+  height: 150px;
+  width: 585px;
+  margin: 15px 0 0 15px;
+  background-color: #FFFFFF;
+}
+
+.section--article {
+  height: 250px;
+  width: 175px;
+  background-color: #FFFFFF;
+  margin: 15px 0px 0px 15px;
+  font-size: 12px;
+  font-weight: normal;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.section--article__texto {
+  height: 85px;
+  width: 175px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+}
+
+/*--aca comienza la section secundaria (aside)--*/
+.aside {
+  height: 450px;
+  width: 200px;
+  background-color: #D6D6D6;
+}
+
+.aside--mapa {
+  height: 200px;
+  width: 170px;
+  margin: 15px 0px 0px 15px;
+  background-color: #BD0A11;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aside--banner {
+  height: 200px;
+  width: 170px;
+  margin: 15px 0px 0px 15px;
+  background-color: #FFFFFF;
+}
+
+/*Footer*/
+.footer {
+  height: 200px;
+  width: 800px;
+}
+
+.footer--menu {
+  height: 180px;
+  width: 800px;
+  font-size: 14px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BD0A11), to(#000000));
+  background: linear-gradient(#BD0A11, #000000);
+}
+
+.footer--menu__nav1 {
+  height: 155px;
+  width: 180px;
+  margin: 25px 0px 0px 50px;
+}
+
+.footer--menu__nav2 {
+  height: 155px;
+  width: 180px;
+  margin-top: 25px;
+}
+
+.footer--menu__nav3 {
+  height: 155px;
+  width: 180px;
+  margin-top: 25px;
+}
+
+.footer--menu__social {
+  height: 155px;
+  width: 210px;
+  margin-top: 25px;
+}
+
+.redes-sociales {
+  height: 50px;
+  width: 50px;
+  top: 20px;
+  left: 40px;
+}
+
+.seguinos {
+  height: 25px;
+  width: 210px;
+}
+
+.twiter {
+  height: 50px;
+  width: 50px;
+  left: 60px;
+  top: 20px;
+}
+
+.footer--derechosReservados {
+  height: 20px;
+  width: 800px;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  background-color: #000000;
+}
+
+/*esto para evitar el color azul en el enlace despues de dar click */
+a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #BD0A11;
+}
+
+/*aca al estar haciendo click en el enlace (sin soltar click)*/
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+/*# sourceMappingURL=style.css.map */

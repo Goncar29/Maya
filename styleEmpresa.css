@@ -1,0 +1,262 @@
+body {
+	width: 800px; 
+	margin: auto;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*--aca comienza el HEADER--*/
+.header {
+	float: left;
+	height: 150px;
+	width: 800px;
+	position: relative;
+	background-color: #000000;
+}
+.header--menu {
+	float: left;
+	position: relative;
+	width: 609px;
+	margin-top: 125px;
+	background-image: url(BARRA.png);
+	font-weight: bold;
+    font-size: 14px;
+}
+.header--LOGO {
+	float: left;
+	height: 150px;
+	width: 191px;
+	position: relative;
+}
+.header--menu__inicio {
+	float: left;
+	height: 25px;
+	width: 40px;
+	position: relative;
+	margin-left: 5px;
+	text-align: center;
+}
+.header--menu__empresa {
+	float: left;
+	height: 25px;
+	width: 60px;
+	position: relative;
+	margin-left: 30px;
+	text-align: center;
+}
+.header--menu__servicios {
+	float: left;
+	height: 25px;
+	width: 65px;
+	position: relative;
+	margin-left: 30px;
+	text-align: center;
+}
+.header--menu__proyectos {
+	float: left;
+	height: 25px;
+	width: 70px;
+	position: relative;
+	margin-left: 30px;
+	text-align: center;
+}
+.header--menu__trab-con-nos {
+	float: left;
+	height: 25px;
+	width: 140px;
+	position: relative;
+	color: #000;
+	margin-left: 30px;
+	text-align: center;
+}
+.header--menu__contactos {
+	float: left;
+	height: 25px;
+	width: 70px;
+	position: relative;
+	margin-left: 30px;
+	text-align: center;
+}
+/*--aca comienza el banner--*/
+.banner1 {
+	float: left;
+	height: 200px;
+	width: 800px;
+	position: relative;
+}
+/*--aca comienza la section principal (article)--*/
+.section {
+	float: left;
+	height: 450px;
+	width: 600px;
+	position: relative;
+	background-color: #D6D6D6;
+}
+.section--vision__titulo {
+	float: left;
+	height: 20px;
+	width: 585px;
+	position: relative;
+	margin-top: 15px;
+	margin-left: 15px;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #F00;
+	font-size: 18px;
+	font-weight: bold;
+}
+.section--mision__titulo {
+	float: left;
+	height: 25px;
+	width: 585px;
+	position: relative;
+	margin-left: 15px;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #F00;
+	font-size: 18px;
+	font-weight: bold;
+}
+.section--texto {
+	float: left;
+	height: 155px;
+	width: 400px;
+	position: relative;
+	top: 15px;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	font-weight: normal;
+	padding-right: 5px;
+	padding-left: 5px;
+    padding-top: 5px;
+}
+.section--img {
+	float: left;
+	height: 160px;
+	width: 160px;
+	position: relative;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding: 15px;
+}
+/*--aca comienza la section secundaria (aside)--*/
+.aside {
+	float: left;
+	height: 450px;
+	width: 200px;
+	position: relative;
+	background-color: #D6D6D6;
+}
+.aside--mapa {
+	float: left;
+	height: 200px;
+	width: 170px;
+	position: relative;
+	margin-top: 15px;
+	margin-left: 15px;
+	background-color: #BD0A11;
+	text-align: center;
+	font-weight: bold;
+}
+.aside--banner {
+	float: left;
+	height: 200px;
+	width: 170px;
+	position: relative;
+	margin-top: 15px;
+	margin-left: 15px;
+	background-color: #FFFFFF;
+}
+/*Footer*/
+.footer {
+	float: left;
+	height: 200px;
+	width: 800px;
+	position: relative;
+}
+.footer--menu {	
+	height: 180px;
+	width: 800px;
+	position: relative;
+	font-size: 14px;
+	font-weight: bold;
+	background: linear-gradient(#BD0A11, #000000);
+}
+.footer--menu__nav1 {
+	float: left;
+	height: 155px;
+	width: 180px;
+	position: relative;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+.footer--menu__nav2 {
+	float: left;
+	height: 155px;
+	width: 180px;
+	position: relative;
+	margin-top: 25px;
+}
+.footer--menu__nav3 {
+	float: left;
+	height: 155px;
+	width: 180px;
+	position: relative;
+	margin-top: 25px;
+}
+.footer--menu__social {
+	float: left;
+	height: 155px;
+	width: 210px;
+	position: relative;
+	margin-top: 25px;
+}
+.redes-sociales {
+	float: left;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: 20px;
+	left: 40px;
+}
+.seguinos {
+	float: left;
+	height: 25px;
+	width: 210px;
+	position: relative;
+}
+.twiter {
+	float: left;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	left: 60px;
+	top: 20px;
+}
+
+.footer--derechosReservados {
+	float: left;
+	height: 20px;
+	width: 800px;
+	position: relative;
+	color: #FFFFFF;
+	font-size: 12px;
+    text-align: center;
+    background-color: black;
+}
+/*esto para evitar el color azul en el enlace despues de dar click */
+a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #BD0A11
+}
+/*aca al estar haciendo click en el enlace (sin soltar click)*/
+a:active {
+	text-decoration: none;
+	color: #000;
+}
